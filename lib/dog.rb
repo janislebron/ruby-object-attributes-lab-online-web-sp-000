@@ -4,11 +4,13 @@ class Dog
     @breed = breed
   end
 
-  def name=("name")
+  def name=(name)
     @name
   end
 
   def name
-    "#{name}".strip
+    @name
   end
+
+  def breed=(breed)
 end
